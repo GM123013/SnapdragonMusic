@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/meng/AndroidStudioProjects/Music/snapdragonMusic/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT-keysexposed/values-pt-rPT-keysexposed.xml",
+            "map": [
+                {
+                    "source": "/home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/res/values-pt-rPT-keysexposed/strings.xml",
+                    "from": {
+                        "startLines": "21,23,22",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "805,1072,925",
+                        "endColumns": "119,145,146",
+                        "endOffsets": "920,1213,1067"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,225,367",
+                        "endColumns": "119,141,142",
+                        "endOffsets": "220,362,505"
+                    }
+                }
+            ]
+        }
+    ]
+}

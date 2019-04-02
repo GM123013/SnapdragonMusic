@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/meng/AndroidStudioProjects/Music/snapdragonMusic/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/meng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/2198e54b5812c0d1006e6e34fe7857ba/res/values-w500dp-v13/values-w500dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

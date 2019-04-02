@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/meng/AndroidStudioProjects/Music/snapdragonMusic/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa-keyshidden/values-fa-keyshidden.xml",
+            "map": [
+                {
+                    "source": "/home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/res/values-fa-keyshidden/strings.xml",
+                    "from": {
+                        "startLines": "21,23,22",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "805,1228,1042",
+                        "endColumns": "236,268,185",
+                        "endOffsets": "1037,1492,1223"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,338,599",
+                        "endColumns": "232,260,181",
+                        "endOffsets": "333,594,776"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,474 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:17:1-309:12
+INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:17:1-309:12
+MERGED from [com.android.support:design:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/893190b9cb5953ae13bf4d2ef9f72d02/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/2198e54b5812c0d1006e6e34fe7857ba/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/meng/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/20dd2bf2441c29b1dd7caff54c1e8eb9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/210f70eeddfabc446d58430961399f1c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/eda108b321ea50ab19eb6d98691b9e3f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/6313e411d50faa881d2731c8c3d989ed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e0f928f1297a61253bd0004807d0eefb/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:17:1-309:12
+	package
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:18:9-36
+		INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+		INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:17:11-69
+original-package
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:20:5-58
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:20:23-55
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:21:22-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:22:5-78
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:22:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:24:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:25:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:26:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:28:5-75
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:28:22-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:29:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:30:5-74
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:30:22-71
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:31:5-83
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:31:22-81
+uses-permission#android.permission.WRITE_MEDIA_STORAGE
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:32:5-77
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:32:22-75
+application
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:35:5-308:19
+MERGED from [com.android.support:design:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/893190b9cb5953ae13bf4d2ef9f72d02/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/893190b9cb5953ae13bf4d2ef9f72d02/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/2198e54b5812c0d1006e6e34fe7857ba/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/2198e54b5812c0d1006e6e34fe7857ba/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/meng/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/20dd2bf2441c29b1dd7caff54c1e8eb9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/meng/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/20dd2bf2441c29b1dd7caff54c1e8eb9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/210f70eeddfabc446d58430961399f1c/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/210f70eeddfabc446d58430961399f1c/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/eda108b321ea50ab19eb6d98691b9e3f/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/eda108b321ea50ab19eb6d98691b9e3f/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e0f928f1297a61253bd0004807d0eefb/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e0f928f1297a61253bd0004807d0eefb/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:41:9-35
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:36:9-50
+	android:hardwareAccelerated
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:38:9-43
+	android:allowTaskReparenting
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:39:9-44
+	android:icon
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:35:18-52
+	android:taskAffinity
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:37:9-50
+	android:usesCleartextTraffic
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:40:9-44
+meta-data#android.app.default_searchable
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:42:9-45:11
+	android:value
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:44:13-67
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:43:13-58
+activity#com.android.music.MusicBrowserActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:46:9-77:20
+	android:launchMode
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:49:9-40
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:50:9-32
+	android:configChanges
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:48:9-65
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:47:9-40
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:46:19-72
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.MUSIC_PLAYER+category:name:android.intent.category.APP_MUSIC+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:51:13-57:29
+action#android.intent.action.MAIN
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:52:25-66
+action#android.intent.action.MUSIC_PLAYER
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:53:25-74
+category#android.intent.category.DEFAULT
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:54:17-76
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:54:27-73
+category#android.intent.category.LAUNCHER
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:55:17-77
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:55:27-74
+category#android.intent.category.APP_MUSIC
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:56:17-78
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:56:27-75
+intent-filter#category:name:android.intent.category.DEFAULT+data:host:media+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:mimeType:vnd.android.cursor.dir/playlist+data:scheme:content
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:58:15-67:29
+data
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:60:17-49
+	android:host
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:61:23-43
+	android:scheme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:60:23-47
+	android:mimeType
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:62:23-49
+intent-filter#action:name:android.intent.action.EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/playlist
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:68:13-72:29
+action#android.intent.action.EDIT
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:69:25-66
+intent-filter#action:name:com.android.music.PLAYBACK_VIEWER+category:name:android.intent.category.DEFAULT
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:73:13-76:29
+action#com.android.music.PLAYBACK_VIEWER
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:74:17-76
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:74:25-73
+receiver#com.android.music.MediaButtonIntentReceiver
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:78:9-83:20
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:78:19-77
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON+action:name:android.media.AUDIO_BECOMING_NOISY
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:79:13-82:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:80:17-77
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:80:25-74
+action#android.media.AUDIO_BECOMING_NOISY
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:81:17-77
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:81:25-74
+activity#com.android.music.MediaPlaybackActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:95:9-105:20
+	android:clearTaskOnLaunch
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:100:17-49
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:97:17-59
+	android:excludeFromRecents
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:101:17-50
+	android:launchMode
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:99:17-48
+	android:configChanges
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:102:17-67
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:96:17-48
+	android:taskAffinity
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:98:17-40
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:95:19-73
+activity#com.codeaurora.music.custom.PermissionActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:107:9-109:20
+	android:launchMode
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:108:19-50
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:107:19-80
+activity#com.android.music.AudioPreview
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:111:9-144:20
+	android:excludeFromRecents
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:113:17-50
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:113:51-74
+	android:configChanges
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:114:17-52
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:111:47-99
+	android:taskAffinity
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:112:17-40
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:111:19-46
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:scheme:file
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:115:13-123:29
+action#android.intent.action.VIEW
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:116:17-69
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:116:25-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:scheme:http
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:124:13-133:29
+category#android.intent.category.BROWSABLE
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:127:17-78
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:127:27-75
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:scheme:content
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:134:13-143:29
+activity#com.android.music.QueryBrowserActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:146:9-160:20
+	android:launchMode
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:149:17-48
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:148:17-40
+	android:configChanges
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:150:17-78
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:147:17-50
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:146:19-72
+intent-filter#action:name:android.intent.action.MEDIA_SEARCH+action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:151:13-155:29
+action#android.intent.action.SEARCH
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:152:17-71
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:152:25-68
+action#android.intent.action.MEDIA_SEARCH
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:153:17-77
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:153:25-74
+meta-data#android.app.searchable
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:156:13-159:15
+	android:resource
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:158:17-51
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:157:17-54
+activity#com.android.music.PlaylistBrowserActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:161:9-174:20
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:162:17-58
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:163:17-40
+	android:configChanges
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:164:17-78
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:161:19-75
+intent-filter#action:name:android.intent.action.PICK+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/playlist
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:165:13-169:29
+action#android.intent.action.PICK
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:166:17-69
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:166:25-66
+intent-filter#category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/playlist
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:170:13-173:29
+activity-alias#com.android.music.PlaylistShortcutActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:175:9-186:26
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:177:13-55
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:179:13-36
+	android:targetActivity
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:176:13-76
+	android:icon
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:178:13-73
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:175:25-82
+intent-filter#action:name:android.intent.action.CREATE_SHORTCUT+category:name:android.intent.category.DEFAULT
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:181:13-184:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:182:17-80
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:182:25-77
+activity#com.android.music.GestureHandler
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:188:9-190:20
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:189:13-59
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:188:19-48
+activity-alias#com.android.music.MusticGesturePlayActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:191:9-195:26
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:193:13-55
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:194:13-36
+	android:targetActivity
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:192:13-70
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:191:25-83
+activity-alias#com.android.music.MusticGesturePrevActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:196:9-200:26
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:198:13-55
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:199:13-36
+	android:targetActivity
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:197:13-70
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:196:25-83
+activity-alias#com.android.music.MusticGestureNextActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:201:9-205:26
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:203:13-55
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:204:13-36
+	android:targetActivity
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:202:13-70
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:201:25-83
+activity#com.android.music.VideoBrowserActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:207:9-227:20
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:209:13-54
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:211:13-36
+	android:icon
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:210:13-47
+	android:taskAffinity
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:208:13-54
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:207:19-72
+intent-filter#action:name:android.intent.action.PICK+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/video
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:212:13-216:29
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:217:13-221:29
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:222:13-224:29
+activity#com.android.music.MediaPickerActivity
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:228:9-251:20
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:229:17-57
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:229:58-82
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:228:19-71
+activity#com.android.music.MusicPicker
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:252:9-273:20
+	android:label
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:254:17-59
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:254:60-83
+	android:configChanges
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:253:17-78
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:252:19-63
+intent-filter#action:name:android.intent.action.GET_CONTENT+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.OPENABLE+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:257:13-264:29
+action#android.intent.action.GET_CONTENT
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:258:17-76
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:258:25-73
+category#android.intent.category.OPENABLE
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:260:17-77
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:260:27-74
+intent-filter#action:name:android.intent.action.PICK+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.OPENABLE+data:mimeType:vnd.android.cursor.dir/audio
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:267:13-272:29
+activity#com.android.music.CreatePlaylist
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:274:9-276:66
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:275:72-96
+	android:configChanges
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:276:13-63
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:275:13-71
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:274:19-66
+activity#com.android.music.RenamePlaylist
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:277:9-278:99
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:278:72-96
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:278:13-71
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:277:19-66
+activity#com.android.music.WeekSelector
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:279:9-280:99
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:280:72-96
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:280:13-71
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:279:19-64
+activity#com.android.music.DeleteItems
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:281:9-282:99
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:282:72-96
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:282:13-71
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:281:19-63
+activity#com.android.music.ScanningProgress
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:283:9-284:99
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:284:72-96
+	android:theme
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:284:13-71
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:283:19-68
+service#com.android.music.MediaPlaybackService
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:285:9-286:40
+	android:exported
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:286:13-37
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:285:18-71
+receiver#com.android.music.MediaAppWidgetProviderLarge
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:298:9-307:20
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:298:19-79
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:299:13-301:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:300:17-84
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:300:25-81
+intent-filter#action:name:com.android.music.updatewidget
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:302:13-304:29
+action#com.android.music.updatewidget
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:303:17-73
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:303:25-70
+meta-data#android.appwidget.provider
+ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:305:13-306:67
+	android:resource
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:306:24-64
+	android:name
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml:305:24-65
+uses-sdk
+INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/893190b9cb5953ae13bf4d2ef9f72d02/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/893190b9cb5953ae13bf4d2ef9f72d02/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/2198e54b5812c0d1006e6e34fe7857ba/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/2198e54b5812c0d1006e6e34fe7857ba/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/meng/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/20dd2bf2441c29b1dd7caff54c1e8eb9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/meng/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/20dd2bf2441c29b1dd7caff54c1e8eb9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/210f70eeddfabc446d58430961399f1c/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/210f70eeddfabc446d58430961399f1c/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/eda108b321ea50ab19eb6d98691b9e3f/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/eda108b321ea50ab19eb6d98691b9e3f/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/6313e411d50faa881d2731c8c3d989ed/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/6313e411d50faa881d2731c8c3d989ed/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e0f928f1297a61253bd0004807d0eefb/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e0f928f1297a61253bd0004807d0eefb/AndroidManifest.xml:20:5-43
+INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /home/meng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/2198e54b5812c0d1006e6e34fe7857ba/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+		INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+		ADDED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
+		INJECTED from /home/meng/AndroidStudioProjects/Music/snapdragonMusic/src/main/AndroidManifest.xml
