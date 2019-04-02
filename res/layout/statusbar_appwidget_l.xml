@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2016, The Linux Foundation. All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are
+  met:
+      * Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+      * Redistributions in binary form must reproduce the above
+        copyright notice, this list of conditions and the following
+        disclaimer in the documentation and/or other materials provided
+        with the distribution.
+      * Neither the name of The Linux Foundation nor the names of its
+        contributors may be used to endorse or promote products derived
+        from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="186.7dp"
+    android:layout_height="120dp"
+    android:background="@drawable/appwidget_layout_bg">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="14.7dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/album_cover_background"></ImageView>
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/transparent"
+        android:src="@drawable/close"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/music_info"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_alignTop="@id/icon"
+        android:layout_alignBottom="@id/icon"
+        android:layout_marginRight="14.7dp"
+        android:layout_toRightOf="@id/icon">
+
+        <TextView
+            android:id="@+id/trackname"
+            style="@android:style/TextAppearance.StatusBar.EventContent.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="10.7sp" />
+
+        <TextView
+            android:id="@+id/artist_album"
+            style="@android:style/TextAppearance.StatusBar.EventContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="start"
+            android:alpha="0.55"
+            android:ellipsize="marquee"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/widget_initial_text"
+            android:textColor="#ffffff"
+            android:textSize="8dp" />
+
+    </RelativeLayout>
+
+    <SeekBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="1.3dp"
+        android:layout_below="@id/icon"
+        android:paddingLeft="14.7dp"
+        android:max="100"
+        android:progress="10"
+        android:paddingRight="14.7dp" />
+
+    <RelativeLayout
+        android:id="@+id/progress_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress"
+        android:layout_marginLeft="14.7dp"
+        android:layout_marginRight="14.7dp">
+
+        <TextView
+            android:id="@+id/start_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:12"
+            android:textColor="#ffffff"
+            android:textSize="5.3sp" />
+
+        <TextView
+            android:id="@+id/end_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="-2:14"
+            android:textColor="#ffffff"
+            android:textSize="5.3sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress_text">
+
+        <ImageButton
+            android:id="@+id/prev"
+            style="@style/ClickBackground"
+            android:layout_width="18.3dp"
+            android:layout_height="11dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28dp"
+            android:layout_toLeftOf="@+id/pause"
+            android:background="@drawable/notification_prev" />
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="16.3dp"
+            android:layout_height="18dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/notification_play"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/next"
+            style="@style/ClickBackground"
+            android:layout_width="18.3dp"
+            android:layout_height="11dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:layout_toRightOf="@id/pause"
+            android:background="@drawable/notification_next"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+
+        <ImageButton
+            android:id="@+id/mode"
+            style="@style/ClickBackground"
+            android:layout_width="8dp"
+            android:layout_height="7dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/playmode_loop"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/control_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="14.7dp"
+        android:layout_marginRight="14.7dp"
+        android:layout_marginBottom="14.7dp">
+
+        <ImageButton
+            android:id="@+id/low_volume"
+            style="@style/ClickBackground"
+            android:layout_width="3.7dp"
+            android:layout_height="5.3dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/volume_low" />
+
+        <SeekBar
+            android:id="@+id/progress_volume"
+            android:layout_width="match_parent"
+            android:layout_height="1.3dp"
+            android:layout_centerInParent="true"
+            android:max="100"
+            android:progress="10"
+            android:paddingLeft="14.7dp"
+            android:paddingRight="14.7dp" />
+
+        <ImageButton
+            android:id="@+id/high_volume"
+            style="@style/ClickBackground"
+            android:layout_width="8.3dp"
+            android:layout_height="7.3dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/volume_high"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+
+    </RelativeLayout>
+</RelativeLayout>
